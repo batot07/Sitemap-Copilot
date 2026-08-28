@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sitemap Copilot | Generator Studio</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+  
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <link rel="stylesheet" href="app.css" />
+</head>
+<body>
+
+  <header class="app-header">
+    <div class="header-container">
+      <div class="brand">
+        <a href="index.html" class="back-home-btn">← Home</a>
+        <span class="brand-badge">UX/IA Engine</span>
+        <h1 class="brand-title">Sitemap Copilot</h1>
+      </div>
+      <div class="header-actions">
+        <span class="status-indicator">
+          <span class="dot-live"></span> Studio Ready
+        </span>
+      </div>
+    </div>
+  </header>
+
+  <main class="studio-wrapper">
+
+    <section id="configSection" class="config-grid">
+      
+      <div class="illustration-panel">
+        <div class="preview-window">
+          <div class="window-topbar">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="window-title">information_architecture_blueprint.ia</span>
+          </div>
+          <div class="window-body">
+            <div class="blueprint-tree">
+              <div class="tree-node root">
+                <span class="node-tag">Root</span>
+                <strong>🏠 Landing / Main App</strong>
+              </div>
+              <div class="tree-connector vertical"></div>
+              <div class="tree-connector horizontal"></div>
+              <div class="tree-row">
+                <div class="tree-node">
+                  <span class="node-tag">L1</span>
+                  <span>📦 Discovery & Catalog</span>
+                </div>
+                <div class="tree-node">
+                  <span class="node-tag">L1</span>
+                  <span>💳 Conversion Flow</span>
+                </div>
+                <div class="tree-node">
+                  <span class="node-tag">L1</span>
+                  <span>⚙️ Account & Core</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="illustration-caption">
+            <p>💡 The AI agent extracts heuristics from research data to structure balanced Miller's Law trees.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-panel">
+        <div class="panel-heading">
+          <h2>Synthesize Architecture</h2>
+          <p>Select a digital archetype and optionally input qualitative research notes.</p>
+        </div>
+
+        <form id="ia-form" class="ia-form">
+          <div class="form-group">
+            <label for="archetypeSelect">Digital Product Archetype</label>
+            <select id="archetypeSelect" class="form-select" required>
+              <option value="E-Commerce">E-Commerce</option>
+              <option value="B2B SaaS" selected>B2B SaaS</option>
+              <option value="Mobile App">Mobile App</option>
+              <option value="Content">Content</option>
+              <option value="EdTech">EdTech</option>
+              <option value="Healthcare">Healthcare</option>
+              <option value="FinTech">FinTech</option>
+              <option value="Developer Platform">Developer Platform</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="customResearch">Custom Research & User Notes (Optional)</label>
+            <textarea 
+              id="customResearch" 
+              class="form-textarea" 
+              placeholder="Paste raw user interviews, usability pain points, or feature requirements here..."></textarea>
+            <span class="field-hint">If left empty, RAG vector store retrieves from domain baseline studies.</span>
+          </div>
+
+          <button type="submit" id="generateBtn" class="btn-generate">
+            <span>Synthesize Sitemap & IA</span>
+            <span class="btn-arrow">⚡</span>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <section id="loadingSection" class="loading-container hidden">
+      <div class="loading-card">
+        <div class="spinner-ring"></div>
+        <h3 class="loading-title">Architecting Information Hierarchy</h3>
+        <p id="loadingStep" class="loading-step">Initializing reasoning agent...</p>
+        <div class="progress-track">
+          <div class="progress-fill"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="resultSection" class="result-workspace hidden">
+      
+      <div class="result-header">
+        <div class="meta-details">
+          <span class="badge-tag" id="resultArchetype">B2B SaaS</span>
+          <h2 id="resultSiteTitle" class="result-title">Generated Sitemap</h2>
+          <span id="nodeCountBadge" class="badge-count">0 Nodes</span>
+        </div>
+        <div class="result-actions">
+          <button id="restartBtn" class="btn-secondary-action">← New Sitemap</button>
+          <button id="exportBtn" class="btn-export">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Download Spec (.md)
+          </button>
+        </div>
+      </div>
+
+      <div class="diagram-canvas">
+        <div id="mermaidTarget" class="mermaid-target"></div>
+      </div>
+
+      <div class="rationale-section">
+        <h3 class="section-title">UX Justification & Evidence Breakdown</h3>
+        <div id="nodeCardsList" class="node-cards-grid"></div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="app-footer">
+    <div class="footer-container">
+      <p class="copyright-text">
+        &copy; 2026 <strong>AI Geeks</strong>. All rights reserved. Powered by UX/IA Sitemap Copilot API.
+      </p>
+    </div>
+  </footer>
+  
+  <script src="app.js"></script>
+</body>
+</html>
