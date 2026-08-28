@@ -38,3 +38,19 @@ By coupling an **Agentic Retrieval-Augmented Generation (RAG)** pipeline with **
 ---
 
 ## 📐 System Architecture
+
+```text
+User Archetype + Qualitative Research (.txt)
+                   │
+                   ▼
+     [FAISS Vector Store Retrieval] ──► Extracts Top-3 Domain Pain Points
+                   │
+                   ▼
+     [Groq LLM + Structured Output] ──► Generates Pydantic IA Blueprint
+                   │
+                   ▼
+   [Deterministic Graph Validator]  ──► Enforces Miller's Law & Depth Caps
+                   │
+                   ▼
+   [Interactive Mermaid Flowchart]  ──► Browser Viewport + Markdown PRD Export
+```
