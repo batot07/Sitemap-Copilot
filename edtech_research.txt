@@ -1,0 +1,16 @@
+User Study: SkillForge - Professional Online Learning Platform
+Participants: 5 Enrolled Students & 3 Instructors
+
+Key Feedback & Observations:
+1. Student Experience:
+   - "When I log in, I should see 'My Learning' with my current course progress and upcoming assignment deadlines immediately."
+   - "The course catalog mixes beginner tutorials with certified masterclasses. We need clear filtering by Skill Level, Topic, and Certification."
+
+2. Assessment & Resources:
+   - "Certificates and transcripts are hard to find; they should be grouped under my Student Profile or Accomplishments tab."
+   - "Discussion forums feel disconnected from the lecture lessons. Each course module needs its own integrated community tab."
+
+3. Structural Needs:
+   - Public View: Course Catalog, Enterprise/Team Training, Pricing, Free Resources.
+   - Authenticated Student Portal: My Learning (Active Courses), Saved/Wishlist, Certificates, Community/Forums.
+   - Isolated Instructor Portal: Curriculum Builder, Student Grading, Revenue/Payouts.

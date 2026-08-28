@@ -1,0 +1,15 @@
+User Study: TechHorizon - Digital Media & Research Publication
+Participants: 7 Tech Readers & Journalists
+
+Key Feedback & Observations:
+1. Content Discovery & Categorization:
+   - "I visit for specific beats like 'AI & Robotics' or 'Cybersecurity', but the homepage only lists articles chronologically."
+   - "The search bar is hidden inside a hamburger menu. On a media site, Search and Topic Filters should be front and center."
+
+2. Archiving & Reading Experience:
+   - "There's no clear way to browse past newsletters or special deep-dive research reports."
+   - "I want to follow specific authors and view their curated column archives."
+
+3. Structural Needs:
+   - Primary Nav: Topics/Beats (AI, Security, Enterprise), Deep Dives (Reports/Whitepapers), Newsletters, Podcast.
+   - Secondary Nav/Footer: Editorial Staff, Submission Guidelines, About Us, RSS Feeds.

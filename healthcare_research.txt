@@ -1,0 +1,15 @@
+User Study: PulseHealth - Patient & Telehealth Portal
+Participants: 8 Patients (Ages 24–68) & 3 Clinical Staff
+
+Key Feedback & Observations:
+1. Urgent Needs vs Routine Care:
+   - "When I'm sick, I need to book a same-day virtual appointment immediately. Right now, it's buried under 'Doctor Directory'."
+   - "There needs to be an obvious Emergency Warning advising patients with chest pain or severe symptoms to dial emergency services instead of waiting for a doctor chat."
+
+2. Health Records & Test Results:
+   - "I want to see blood test results and doctor notes in chronological order with simple explanations of what values mean."
+   - "Managing prescriptions is tedious. I need a single button to request refills for active medications."
+
+3. Structural & Architectural Needs:
+   - Top-Level Navigation: Appointments (Book / Upcoming), Medical Records (Labs, Immunizations), Medications (Refill Requests), Messages (Direct Doctor Chat), Billing/Insurance.
+   - Distinct Separation: Immediate care actions (Urgent Virtual Visit) placed prominently above historical record-keeping.

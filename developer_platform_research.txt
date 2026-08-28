@@ -1,0 +1,15 @@
+User Study: CloudMesh - Developer Infrastructure & API Platform
+Participants: 6 Backend Engineers & 4 Technical Writers
+
+Key Feedback & Observations:
+1. Onboarding Friction:
+   - "As a developer, I want a 5-minute Quickstart Guide with copyable curl and Python snippets right next to the API Reference."
+   - "I shouldn't have to create an entire production account just to test an endpoint in the interactive API playground."
+
+2. Developer Operations vs Management:
+   - "API Keys, Rate Limits, and Webhook logs should be in a dedicated Developer Dashboard, completely separated from corporate billing and invoice PDFs."
+   - "I need real-time logs and payload inspection tools to debug failing 500 errors quickly."
+
+3. Structural Needs:
+   - Public Developer Hub: Quickstart Tutorials, SDKs & Client Libraries, Full REST/GraphQL Reference, Changelog.
+   - Developer Console (Authenticated): API Key Generation, Webhook Endpoints, Usage & Latency Metrics, Sandbox Testing Environment.

@@ -1,0 +1,16 @@
+User Study: UrbanFootwear - E-Commerce User Interviews
+Participants: 8 Frequent Online Shoppers
+
+Key Feedback & Observations:
+1. Navigation Confusion:
+   - "I was trying to find running shoes, but they were lumped under 'Athletics' instead of having clear Men's and Women's top categories."
+   - "The navigation has too many nested layers. I had to click four times just to see waterproof trail shoes."
+
+2. Cart & Purchase Flow:
+   - "When I add an item, I want to see a mini-cart immediately with an express checkout button instead of being redirected to a separate page."
+   - "I couldn't find where to track my order after purchasing without logging into a full account."
+
+3. Feature Requests:
+   - Dedicated 'Sale & Outlet' hub in the primary navigation.
+   - Quick-access Order Tracking link directly in the footer and account header.
+   - Simplified 3-step checkout: Cart -> Shipping & Payment -> Order Confirmation.

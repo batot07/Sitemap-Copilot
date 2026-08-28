@@ -1,0 +1,15 @@
+User Study: FlowPulse - B2B Team Collaboration SaaS
+Participants: 6 Product Managers & 4 Team Leads
+
+Key Feedback & Observations:
+1. Daily Workflow Obstacles:
+   - "When I log in, I want to land directly on 'Active Projects' and 'My Tasks'. Right now, it defaults to a company newsfeed nobody reads."
+   - "Switching between client workspaces takes too many clicks. The workspace switcher should be in the top bar."
+
+2. Admin & Settings Clutter:
+   - "Billing details, team seat management, and API integrations are scattered everywhere. They need to live under a dedicated Organization Settings area."
+   - "Only admins need to see billing. Standard contributors are confused by inactive billing tabs on their dashboard."
+
+3. Structural Needs:
+   - Clear distinction between Workspace Tools (Projects, Analytics, Tasks, Documents) and Admin Controls (Team Roles, Integrations, Billing, Audit Logs).
+   - Dedicated hub for Automation & Webhooks accessible only to Tech Leads.

@@ -1,0 +1,15 @@
+User Study: VaultPay - Personal Banking & Investment Platform
+Participants: 9 Active Account Holders
+
+Key Feedback & Observations:
+1. Transaction Clarity & Quick Actions:
+   - "Transferring money to friends or paying a bill should take maximum 2 clicks from the main screen."
+   - "Transaction names look like cryptic merchant codes. I need human-readable descriptions, merchant logos, and category tags."
+
+2. Budgeting vs Daily Spending:
+   - "The savings vaults and investment portfolios should not be combined with the checking balance. It leads to accidental overspending."
+   - "I want an isolated 'Wealth & Analytics' tab to track monthly spending trends, net worth, and savings goals."
+
+3. Security & Card Management:
+   - "If I lose my card, freezing it needs to be immediately accessible from the primary interface without digging through five account settings menus."
+   - High priority for dedicated Security Controls: Card Lock, PIN change, Biometrics, Dispute Transaction.

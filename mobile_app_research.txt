@@ -1,0 +1,15 @@
+User Study: NutriTrack - Mobile Calorie & Habit Tracker
+Participants: 10 Everyday Mobile Users
+
+Key Feedback & Observations:
+1. Screen Real Estate & Navigation:
+   - "There are too many items on the screen. The bottom bar has 6 tabs and icons are overlapping on smaller phones."
+   - "I log food 3 times a day; it needs to be a prominent floating action button or the very first tab."
+
+2. Mental Model & Tabs:
+   - "I expect standard tabs: Today (Log), Trends (Progress charts), Community, and Profile."
+   - "Settings and connected devices (like Apple Health / Fitbit) should simply be inside my Profile page, not on the main bar."
+
+3. Hierarchy Rules:
+   - Strictly limit bottom navigation to 4 main destinations: Home/Log, Insights, Recipes, Profile.
+   - Modals/sheets for logging food entries rather than deep multi-page jumps.
